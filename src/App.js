@@ -5,11 +5,13 @@ import New from "./pages/New";
 import Edit from "./pages/Edit";
 import Diary from "./pages/Diary";
 import Mybutton from "./components/MyButton";
+import MyHeader from "./components/MyHeader";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <MyHeader />
         <h2>App.js</h2>
         <Routes>
           <Route path="/" element={<Home />} />
